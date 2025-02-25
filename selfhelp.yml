@@ -24,8 +24,16 @@
       message: |-
         检查是否使用了仙人掌部件或魂金部件，该部件会导致出错，请不要使用。如果未使用请提供崩溃前操作、携带装备部件组成以及崩溃日志at管理
 
+- matches: 
+    - match: '异常区域在哪'
+      to_me: true
+  replies: 
+    - type: normal
+      message: |-
+        在人马座，需要走第二章任务下半部分的五级火箭，前期无法使用相关高效配方
+
 #黑白名单设置
-- groups:
+  groups:
     type: white
     values: 
       - 885624197
