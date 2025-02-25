@@ -6,7 +6,11 @@
   replies:
     - type: normal
       message: |-
-        [CQ:image,file=https://s21.ax1x.com/2025/02/25/pE1yZUH.png]
+        什么时候更新
+        机器无法输入
+        打怪或挨打游戏崩溃
+        异常区域在哪
+        
 
 - matches:
     - match: '机器无法输入'
@@ -32,15 +36,20 @@
       message: |-
         在人马座，需要走第二章任务下半部分的五级火箭，前期无法使用相关高效配方
 
-#黑白名单设置
-  groups:
-    type: white
-    values: 
-      - 885624197
-      - 761155624
-      - 698798364
+- matches: 
+    - match: '什么时候更新'
+      to_me: true
+  replies: 
+    - type: normal
+      message: |-
+        明天
 
-  users: 
-    type: black
-
+- matches: 
+    - match: '(我)?(喜欢|爱)你'
+      type: regex
+      to_me: true
+  replies: 
+    - type: normal
+      message: |-
+        bubble也喜欢你喵~
 
