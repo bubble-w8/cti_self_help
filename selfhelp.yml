@@ -1,0 +1,27 @@
+#yml对换行和缩进敏感，注意换行缩进规则
+
+- matches:
+    - match: '自助问答'
+      to_me: true
+  replies:
+    - type: normal
+      message: |-
+        [CQ:image,file=https://s21.ax1x.com/2025/02/25/pE1yZUH.png]
+
+- matches:
+    - match: '机器无法输入'
+      to_me: true
+  replies:
+    - type: normal
+      message: |-
+        首先检查管道是否调为抽取（扳手shift右键），其次检查机器是否配置输入输出面，如果都正常可能由掉配方引起，执行/reload指令。
+
+- matches: 
+    - match: '打怪或挨打游戏崩溃'
+      to_me: true
+  replies: 
+    - type: normal
+      message: |-
+        检查是否使用了仙人掌部件或魂金部件，该部件会导致出错，请不要使用。如果未使用请提供崩溃前操作、携带装备部件组成以及崩溃日志at管理
+
+
