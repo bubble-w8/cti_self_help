@@ -13,6 +13,8 @@
         辉铋矿在哪
         为什么做不了钢
         搅拌盆做不出高炉砖
+        基岩怎么挖
+        我的东西怎么进ae就没了
         
 
 - matches:
@@ -65,6 +67,20 @@
     - type: normal
       message: |-
         搅拌盆需要使用过滤器过滤产物
+
+- matches: 
+    - match: '基岩怎么挖'
+  replies: 
+    - type: normal
+      message: |-
+        使用虚空结晶挖掘，虚空结晶在基岩层附近生成
+
+- matches:
+    - match: '我的东西怎么进ae就没了'
+  replies:
+    - type: normal
+      message: |-
+        可能被没标记存储总线的水槽吃了，可能被ae连的tom或精妙吞了，也可能被没标记的存储总线放什么储罐里了
         
 - matches: 
     - match: '(我)?(喜欢|爱)你'
