@@ -10,6 +10,9 @@
         机器无法输入
         打怪或挨打游戏崩溃
         异常区域在哪
+        辉铋矿在哪
+        为什么做不了钢
+        搅拌盆做不出高炉砖
         
 
 - matches:
@@ -30,7 +33,6 @@
 
 - matches: 
     - match: '异常区域在哪'
-      to_me: true
   replies: 
     - type: normal
       message: |-
@@ -38,12 +40,32 @@
 
 - matches: 
     - match: '什么时候更新'
-      to_me: true
   replies: 
     - type: normal
       message: |-
         明天
 
+- matches:
+    - match: '辉铋矿在哪'
+  replies:
+    - type: normal
+      message: |-
+        使用机械动力矿物钻井或沉浸工程斗轮式挖掘机在矿脉上挖掘（前者硫化铁后者富辉铋矿脉）
+
+- matches:
+    - match: '为什么做不了钢'
+  replies:
+    - type: normal
+      message: |-
+        mek已锁至第二章，前期使用沉浸工艺高炉做钢
+
+- matches:
+    - match: '搅拌盆做不出高炉砖'
+  replies:
+    - type: normal
+      message: |-
+        搅拌盆需要使用过滤器过滤产物
+        
 - matches: 
     - match: '(我)?(喜欢|爱)你'
       type: regex
